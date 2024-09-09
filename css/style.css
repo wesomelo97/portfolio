@@ -51,8 +51,14 @@ button:hover, form .btn-enviar input:hover{
 
 /* ESTILO CABEÇALHO */
 header {
-    padding: 40px 4%;
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #000; /* Adicione uma cor de fundo para o cabeçalho */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adicione uma sombra para dar destaque ao cabeçalho */
+    padding: 20px 4%; /* Ajuste o espaçamento interno do cabeçalho */
 }
 
 header > .interface {
@@ -82,6 +88,9 @@ header nav ul li {
     padding: 0px 40px;
 }
 
+main {
+    padding-top: 120px;
+}
 
 
 
