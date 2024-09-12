@@ -387,6 +387,18 @@ form .btn-enviar input {
     transform: .2s;
 }
 
+/* teste */
+.img-port .overlay a {
+    text-decoration: none;
+    color: #fff;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.img-port .overlay a:hover {
+    cursor: pointer;
+}
+
 /* ESTILO DO RODAPE */
 
 footer {
