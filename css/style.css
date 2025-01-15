@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #000;
+    background-color: #282F37;
     height: 100vh;
 }
 
@@ -27,7 +27,7 @@ body {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #FF004F;
+    background-color: #03989e;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -35,13 +35,13 @@ body {
 }
 
 h2.titulo {
-    color: #fff;
+    color: #f5f5f5;
     font-size: 38px;
     text-align: center;
 }
 
 h2.titulo span{
-    color: #FF004F;
+    color: #03989e;
 }
 
 button:hover, form .btn-enviar input:hover{
@@ -56,9 +56,10 @@ header {
     left: 0;
     width: 100%;
     z-index: 999;
-    background-color: #000; /* Adicione uma cor de fundo para o cabeçalho */
+    background-color: #282F37; /* Adicione uma cor de fundo para o cabeçalho */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adicione uma sombra para dar destaque ao cabeçalho */
     padding: 20px 4%; /* Ajuste o espaçamento interno do cabeçalho */
+    ;
 }
 
 header > .interface {
@@ -68,7 +69,7 @@ header > .interface {
 }
 
 header a {
-    color: #7d7d7d;
+    color: #c0c0c0;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
@@ -98,7 +99,7 @@ main {
 }
 
 .btn-abrir-menu i {
-    color: #ff004f;
+    color: #03989e;
     font-size: 40px;
     position: absolute;
     right: 10px;
@@ -107,7 +108,7 @@ main {
 }
 
 .menu-mobile {
-    background: #000;
+    background: #282F37;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -131,7 +132,7 @@ main {
 }
 
 .menu-mobile .btn-fechar i {
-    color: #FF004F;
+    color: #03989e;
     font-size: 30px;
 }
 
@@ -140,7 +141,7 @@ main {
 }
 
 .menu-mobile nav ul a{
-    color: #fff;
+    color: #f5f5f5;
     font-size: 20px;
     font-weight: 300;
     padding: 20px 4%;
@@ -148,8 +149,8 @@ main {
 }
 
 .menu-mobile nav ul a:hover {
-    background-color: #ff004f;
-    color: #000;
+    background-color: #03989e;
+    color: #282F37;
 }
 
 .overlay-menu {
@@ -176,18 +177,18 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site h1{
-    color: #fff;
+    color: #f5f5f5;
     font-size: 42px;
     line-height: 40px;
 }
 
 .topo-do-site .txt-topo-site h1 span {
-    color: #ff004f;
+    color: #03989e;
     font-size: 54px;
 }
 
 .topo-do-site .txt-topo-site p{
-    color: #fff;
+    color: #f5f5f5;
     margin: 40px 0;
 }
 
@@ -218,7 +219,7 @@ section.especialidades .flex {
 }
 
 .especialidades .especialidades-box {
-    color: #fff;
+    color: #f5f5f5;
     padding: 40px;
     margin-top: 45px;
     border-radius: 20px;
@@ -232,7 +233,7 @@ section.especialidades .flex {
 
 .especialidades .especialidades-box i{
     font-size: 70px;
-    color: #FF004F;
+    color: #03989e;
 }
 
 .especialidades .especialidades-box h3 {
@@ -242,7 +243,7 @@ section.especialidades .flex {
 
 /* ESTILO DO SOBRE */
 section.sobre {
-    padding: 80px 4%;
+    padding: 160px 4%;
 
 }
 
@@ -252,7 +253,7 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre {
-    color: #fff;
+    color: #f5f5f5;
 
 }
 
@@ -264,7 +265,7 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre h2 span {
-    color: #FF004F;
+    color: #03989e;
     display: block;
 }
 
@@ -278,7 +279,7 @@ section.sobre .flex{
     height: 60px;
     border-radius: 50%;
     border: none;
-    background-color: #FF004F;
+    background-color: #03989e;
     font-size: 22px;
     cursor: pointer;
     margin: 0 5px;
@@ -296,7 +297,7 @@ section.portfolio {
 .img-port {
     width: 360px;
     height: 460px;
-    background-color: #FF004F;
+    background-color: #03989e;
     background-size: cover;
     background-position: 100% 0%;
     transition: 8s;
@@ -327,7 +328,7 @@ section.portfolio .flex {
     justify-content: center;
     font-size: 24px;
     font-weight: 600;
-    color: #fff;
+    color: #f5f5f5;
     opacity: 0;
     transition: .5s;
 }
@@ -360,7 +361,7 @@ form input, form textarea {
     outline: 0;
     padding: 20px 15px;
     border-radius: 15px;
-    color: #fff;
+    color: #f5f5f5;
     font-size: 18px;
 }
 
@@ -380,7 +381,7 @@ form .btn-enviar {
 
 form .btn-enviar input {
     width: 120px;
-    background-color: #FF004F;
+    background-color: #03989e;
     color: #000;
     font-weight: 700; 
     cursor: pointer;
@@ -390,7 +391,7 @@ form .btn-enviar input {
 /* teste */
 .img-port .overlay a {
     text-decoration: none;
-    color: #fff;
+    color: #f5f5f5;
     font-size: inherit;
     font-weight: inherit;
 }
@@ -416,18 +417,18 @@ footer .line-footer {
 }
 
 .borda {
-    border-top: 2px solid #FF004F;
+    border-top: 2px solid #03989e;
 }
 
 footer .line-footer p i{
-    color: #FF004F;
+    color: #03989e;
     font-size: 22px;
 }
 
 
 
 footer .line-footer p a {
-    color: #fff;
+    color: #f5f5f5;
     text-decoration: none;
 
 }

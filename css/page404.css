@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #282f37;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: left;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.content {
+    flex: 1;
+    max-width: 50%;
+}
+
+.text-section {
+    margin-bottom: 20px;
+}
+
+.text-section h1 {
+    font-size: 2.5rem;
+    color: #03989e;
+    margin-bottom: 10px;
+}
+
+.text-section p {
+    font-size: 1.0rem;
+    color: #f5f5f5;
+    line-height: 1.6;
+}
+
+.text-section i {
+    font-size: 3rem;
+    color: #03989e;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.btn-social {
+    margin-top: 20px;
+}
+
+.btn-social a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #03989e;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+
+}
+
+.btn-social button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #03999e5c;
+    color: #f5f5f5;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.button-section button{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #282f37;
+    border-color: #03989e;
+    border: 1;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.button-section button:hover {
+    background-color: #03989e;
+    color: #f5f5f5;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #03999e5c;
+}
+
+.button-section a {
+    text-decoration: none;
+    color: #f5f5f5;
+}
